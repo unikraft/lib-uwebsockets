@@ -1,0 +1,6 @@
+menuconfig LIBUWEBSOCKETS
+	bool "libuwebsockets - simple, secure & standards compliant web server for the most demanding of applications"
+	select LIBUSOCKETS
+	select LIBZLIB
+	select CXX_THREADS
+	default n
